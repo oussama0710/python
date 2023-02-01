@@ -1,0 +1,26 @@
+for i in range(151):
+    print(i)
+
+for j in range(5,1001):
+    if j%5==0:
+        print(j)
+
+for n in range(1,101):
+    if n%10==0:
+        print("Coding Dojo")
+    elif n%5==0:
+        print("Coding")
+    else:
+        print(n)
+sum=0
+for u in range(500000):
+    sum+=u
+print(sum)
+for y in range(2018,0,4):
+    print(y)
+lowNum=3
+highNum=19
+mult=4
+for k in range(lowNum,highNum):
+    if(k%mult==0):
+        print(k)
