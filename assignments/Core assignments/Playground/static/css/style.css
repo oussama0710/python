@@ -1,0 +1,19 @@
+body{
+    padding: 0 10%;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(159,197,248);
+    border: 3px solid black;
+    
+}
+.boxes{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+h1{
+    text-align: center;
+}
