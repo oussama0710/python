@@ -1,0 +1,13 @@
+body{
+    padding: 20px 30%;
+}
+table,th{
+    border: 1px solid black !important;
+    border-collapse: collapse;
+    height: auto;
+    width: 40%;
+}
+.upper{
+    background-color: rgb(32,33,36);
+    color: bisque;
+}
