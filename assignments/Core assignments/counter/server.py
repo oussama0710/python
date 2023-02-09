@@ -9,7 +9,7 @@ def index():
     else:
         session['count']+=1
     return render_template('index.html')
-@app.route('/reset')     
+@app.route('/reset')
 def reset():
     session.clear()
     return redirect('/')
